@@ -9,6 +9,7 @@ License
 The following directories and their contents are Copyright Alan Shen. You may not reuse anything therein without my permission:
 
 * _posts/
+* misc/
 * images/
 
 All other files and directories are licensed under the [MIT license](http://www.opensource.org/licenses/mit-license.php) unless explicitly stated.
