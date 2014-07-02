@@ -1,12 +1,33 @@
-# Site settings
-title: Where Is the Hide Button!?
-email: sunzenshen@gmail.com
-description: "Pardon the dust."
-baseurl: ""
-url: ""
-twitter_username: sunzenshen
-github_username:  sunzenshen
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-# Build settings
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+pygments: true
 markdown: kramdown
-permalink: pretty
+
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Where is the Hide Button?!
+
+description: Pardon the dust.
+author:
+  name: Alan Shen
+  email: sunzenshen@gmail.com
+  github: sunzenshen
+  twitter: sunzenshen
+  pinterest: 
+  linkedin: 
+  resume: 
+  bio: Pardon the dust.
+  email_md5: 
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:

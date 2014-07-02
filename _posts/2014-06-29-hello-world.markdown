@@ -1,8 +1,9 @@
 ---
 layout: post
-title: “Hello World!”
-date:  2014-06-29- 17:42:37
-categories: meta
+title: Hello World!
+categories: [general]
+tags: [meta]
+description: On the likelihood of someone stumbling upon this space...
 ---
 
 Hello and pardon the dust. I wasn’t expecting anyone to stumble onto this blog so soon. As famously said by [Some Other Dude at Google I/0, 2008](https://www.youtube.com/watch?v=0SARbwvhupQ):
