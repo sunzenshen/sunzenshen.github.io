@@ -60,4 +60,4 @@ Misc Notes
 ----------
 [Rob Norris](http://tpolecat.github.io/2014/04/22/lambdaconf.html) has a great [writeup](http://tpolecat.github.io/2014/04/22/lambdaconf.html) of all the events I couldn’t attend due to the multiple tracks.
 
-If I learned nothing else, monads are pure functions that simulate side effects, by encapsulating the wrapping and unwrapping state. It is no joke that I was having trouble even forming an idea of what a monad was when studying for this conference.
+If I learned nothing else, monads are pure functions that simulate side effects, by encapsulating the wrapping and unwrapping of state. It is no joke that I was having trouble even forming an idea of what a monad was when studying for this conference.
