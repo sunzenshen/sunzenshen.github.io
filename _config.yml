@@ -12,7 +12,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: "Alan Shen"
+      title: "@sunzenshen"
 
 title: "Alan Shen"
 description: Pardon the dust.
