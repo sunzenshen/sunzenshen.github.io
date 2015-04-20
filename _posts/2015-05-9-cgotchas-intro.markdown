@@ -525,5 +525,5 @@ Additional References
 * [Stack Overflow: Golang Cgo Convering union field to go type](http://stackoverflow.com/questions/14581063/golang-cgo-converting-union-field-to-go-type)
 * [Stack Overflow: cgo : Undefined symbols for architecture x86_64](http://stackoverflow.com/questions/28593574/cgo-undefined-symbols-for-architecture-x86-64)
 * [golang-nuts: cgo and varargs](https://groups.google.com/forum/#!topic/golang-nuts/cl1i2ZVUZqk)
-* [Slides from a talk I gave on this same topic](https://github.com/sunzenshen/go-build-your-own-lisp/tree/talk_cgothas/slides)
+* [Slides from a talk I gave on this same topic](https://github.com/sunzenshen/go-build-your-own-lisp/tree/talk_cgotchas/slides)
 * [Make a Lisp, another useful resource for implementing your own lisp](https://github.com/kanaka/mal)
