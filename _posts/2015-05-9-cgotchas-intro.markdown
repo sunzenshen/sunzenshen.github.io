@@ -66,7 +66,7 @@ package main
 import "C"
 {% endhighlight %}
 
-The #cgo directive includes a compiler flag -lm that brings in some math functionality used by mpc in its internal functions workings.
+The #cgo directive includes a compiler flag -lm that brings in some math functionality used by mpc in its internal workings.
 This line is optional on some setups, but not on others.
 For example, Travic CI will [fail](https://travis-ci.org/sunzenshen/go-build-your-own-lisp/builds/54618585)
 until that dependency is [resolved](https://travis-ci.org/sunzenshen/go-build-your-own-lisp/builds/54650990),
@@ -113,7 +113,7 @@ ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 {% endhighlight %}
 
-Instead, we need to build an executable first, before running:
+Instead, you can try building an executable first, before running it:
 {% highlight bash %}
 > go build
 > ./cgotchas
@@ -142,7 +142,7 @@ func New(name string) Parser {
 }
 {% endhighlight %}
 
-The after importing our new package:
+Then after importing our new package:
 {% highlight go %}
 import "github.com/<github_username>/cgotchas/mpc"
 {% endhighlight %}
@@ -166,7 +166,7 @@ Memory Cleanup (Handling variadic-argument functions from C)
 ------------------------------------------------------------
 Because C does not manage memory automatically,
 take care when calling any C code that may allocate memory on the heap.
-The mpc_new function from our library is no exception,
+The mpc_new function from our library is a convenient example of this memory allocation,
 and has a corresponding utility function that frees the resources taken:
 {% highlight c %}
 void mpc_cleanup(int n, ...);
@@ -182,7 +182,6 @@ func Cleanup(p Parser) {
 
 But that would result in this compilation error:
 {% highlight bash %}
-# github.com/sunzenshen/cgotchas/mpc
 mpc/mpc.go:22:2: unexpected type: ...
 {% endhighlight %}
 
@@ -245,10 +244,8 @@ For example, if we import the header file twice:
 import "C"
 {% endhighlight %}
 
-My example would include the following perplexing error:
+My example as is would result in the following perplexing error:
 {% highlight bash %}
-> go run main.go
-# github.com/sunzenshen/cgotchas/mpc
 In file included from mpc/mpc.go:6:
 ./mpc_interface.h:3:13: error: redefinition of 'mpc_cleanup_if'
 inline void mpc_cleanup_if(mpc_parser_t* parser) {
@@ -260,11 +257,11 @@ inline void mpc_cleanup_if(mpc_parser_t* parser) {
 {% endhighlight %}
 
 While your code may return a slightly different error depending on the ordering of your function definitions,
-the key highlight is on the supposed redefinition of a function of itself.
+the key highlight is on the redefinition of a function... at the same place it was originally defined.
 
-The (likely confusing and inaccurate to spec) way I like to think of this scenario is to consider C code
+The (partially inaccurate to spec) way I like to think of this scenario is to consider C code
 as being manipulated by another set of instructions focused on the text processing of C source files.
-These instructures are the C preprocessor commands, indicated by the #-symbol:
+These instructions are the C preprocessor commands, indicated by the #-symbol:
 {% highlight c %}
 #cgo LDFLAGS: -lm
 #include "mpc_interface.h"
@@ -298,13 +295,13 @@ Back to the error example of stacking the same #include directive,
 doing so caused the source code for "mpc_interface.h" to be inserted twice in a row.
 This led to the duplication of definition that was reported.
 
-We can use C preprocessor commands to avoid this mistake:
+We can use C preprocessor commands to avoid this duplication:
 [(example)](https://github.com/sunzenshen/cgotchas/commit/a58fd1ef9e756794428442b9886655f3b7b3a657)
 {% highlight c %}
 #ifndef MPC_INTERFACE_H
 #define MPC_INTERFACE_H
 
-// The contents of the previously defined mpc_interface.h
+// The rest of the contents in mpc_interface.h
 
 #endif
 {% endhighlight %}
@@ -426,7 +423,7 @@ mpca_lang(MPCA_LANG_DEFAULT,
   Number, Operator, Expr, Lispy);
 {% endhighlight %}
 
-Making use of that interface involves a number of steps covered earlier.
+Making use of that interface involves a number of steps similar to those covered earlier.
 For now, I'll leave the adaptation to Go as an exercise for the reader,
 as well as provide an [example](https://github.com/sunzenshen/cgotchas/tree/grammar_definition)
 of such [work](https://github.com/sunzenshen/cgotchas/commit/d66b33eb65d774f1e5e532de90b9c64edb02ab91).
