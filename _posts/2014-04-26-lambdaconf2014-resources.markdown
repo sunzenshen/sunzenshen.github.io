@@ -24,7 +24,7 @@ Events Attended
 [Keynote slides](http://www.slideshare.net/extempore/keynote-lambdaconf2014)  
 Conference started off with a keynote by the controversial Paul Phillips
 about the state of build times for the Scala compiler.
-Unfortunately, the slides do not convey the amusingly heated shouting and arm-waving about the Scala compiler.
+Unfortunately, the slides do not convey the amusingly heated shouting and arm-waving about the same.
 I did find another talk of his with a similar sentiment [here](https://www.youtube.com/watch?v=uiJycy6dFSQ).
 
 **Intro to Functional Game Programming with Scala by John Degoes:**  
@@ -45,11 +45,11 @@ That repetition actually helped my absorbing the concept, if only a bit at a tim
 **Building Webapps in Clojure by Ryan Neufeld:**  
 [Workshop repository](https://github.com/rkneufeld/pedestal-workshop)  
 My impression from the talk was that the Pedestal framework hid much of the underlying behavior.
-While handy for FP experts,
+While handy for accelerating the construction process,
 this abstraction made it hard for newbies like me to understand what was happening on the language level,
 especially for those not familiar with writing production Clojure applications.
 The live coding demonstration was impressive though,
-and wished I knew enough Clojure to appreciate the resulting example code.
+and I wished knew enough Clojure to appreciate the resulting example code.
 
 **Haskell in 60 minutes by [Brian Mckenna](https://twitter.com/puffnfresh):**  
 [Gist with the results of Brian’s live coding session](https://gist.github.com/puffnfresh/9824390)  
@@ -65,7 +65,9 @@ Missed Events
 [Workshop sample code](https://github.com/puffnfresh/idris-workshop)  
 The topic of the talk (dependently typed programming) was fairly intimidating,
 given my limited exposure to Haskell and even mainstream functional programming.
-From hearsay, this was apparently the best talk of the conference.
+From hearsay, this was apparently the best event of the conference.
+
+(This workshop will be making a comeback in [2015](http://www.degoesconsulting.com/lambdaconf-2015/#talk-dec90) - Time Travelling Ed)
 
 **How to Write a Perfect Program by Kris Nuttycombe**  
 [Talk slides](https://github.com/nuttycom/lambdaconf-2014)
