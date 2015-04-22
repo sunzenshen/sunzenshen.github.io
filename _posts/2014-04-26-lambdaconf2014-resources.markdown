@@ -49,7 +49,7 @@ While handy for accelerating the construction process,
 this abstraction made it hard for newbies like me to understand what was happening on the language level,
 especially for those not familiar with writing production Clojure applications.
 The live coding demonstration was impressive though,
-and I wished knew enough Clojure to appreciate the resulting example code.
+and I wished I knew enough about Clojure to appreciate the resulting example code.
 
 **Haskell in 60 minutes by [Brian Mckenna](https://twitter.com/puffnfresh):**  
 [Gist with the results of Brian’s live coding session](https://gist.github.com/puffnfresh/9824390)  
