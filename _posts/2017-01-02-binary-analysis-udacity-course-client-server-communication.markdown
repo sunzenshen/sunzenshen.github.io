@@ -1,8 +1,8 @@
 ---
 layout: post
-title: What's In A Binary? Udacity Lesson Binaries for Course: Client-Server Communication
-categories: [lab-notes]
-tags: [binary-analysis, Go]
+title: What's In A Binary? Udacity: Client-Server Communication
+categories: [lab_notes]
+tags: [binary_analysis, Go]
 description: Learning about useful open source libraries through simple string browsing of a Go binary file.
 ---
 
@@ -10,7 +10,7 @@ Recently, I took Udacity's short and free [Client-Server Communication](https://
 When working through the interactive labs, it struck me as a bit funny that they ask you to casually execute binary files to run each of the localhost servers for each exercise.
 I actually trust Udacity/Google not to do anything suspicious, but was curious to see if I could get any insights about how the binaries were made.
 
-The below notes involve the "devtools_mac_amd64" binary included in "L1-DevTools.zip" from the "Quiz: DevTools Quiz" section of the course.
+The notes below involve the "devtools_mac_amd64" binary included in "L1-DevTools.zip" from the "Quiz: DevTools Quiz" section of the course.
 
 Step 1: Totally fail to use radare2
 -----------------------------------
@@ -66,6 +66,7 @@ I recalled seeing a way to filter [strings](http://manpages.ubuntu.com/manpages/
 from a LiveOverflow video about [finding the license key in a naive key check implementation](https://www.youtube.com/watch?v=3NTXFUxcKPc&feature=youtu.be&t=2m43s).
 
 How many results would the default arguments output?
+
 ```
 > strings devtools_mac_amd64 | wc -l
    65861
@@ -80,11 +81,13 @@ How about searching for GitHub urls like from the radare2 output above?
 ```
 
 From that list, the list of included libraries emerges:
+
 * [github.com/GeertJohan/go.rice](https://github.com/GeertJohan/go.rice)
 * [github.com/daaku/go%2ezipexe.OpenCloser](https://github.com/daaku/go.zipexe)
 * [github.com/kardianos/osext.Executable](https://github.com/kardianos/osext)
 
 ... oh, hey, is that a directory listing of the instructor's Go sources?
+
 ```
 /Users/surma/src/github.com/kardianos/osext/osext_sysctl.go
 /Users/surma/src/github.com/kardianos/osext/osext.go
@@ -118,17 +121,19 @@ From that list, the list of included libraries emerges:
 ```
 
 ?
+
 ```
 /Users/surma/src/github.com/udacity/ud897-client-server-communication
 ```
 
-https://github.com/udacity/ud897-client-server-communication /facepalm
+[https://github.com/udacity/ud897-client-server-communication](https://github.com/udacity/ud897-client-server-communication) /facepalm
 
 So it turns out that I totally forgot to search around on GitHub/Google for the course source code, before embarking on this wild goose chase.
 At least now we know where to see how Surma implemented each of the exercise binaries.
 I suppose one could wear some tin-foil and wonder if the compiled binaries match, but I'm not nearly paranoid enough to consider that a realistic concern.
 
 Now wondering how much information the binary leaks about the user's setup, I alter the query to search the instructor's username:
+
 ```
 > strings devtools_mac_amd64 | grep surma
 /Users/surma/.homebrew/Cellar/go/1.6.2/libexec
@@ -140,6 +145,7 @@ Thankfully, it looks like all the list entries are related to the Go libraries u
 so I don't need to worry about too much about my directory info being leaked should I distribute Go binaries myself.
 
 Now curious about my own Go projects, I pull a copy of the code for my [toy lisp project](https://github.com/sunzenshen/go-build-your-own-lisp):
+
 ```
 > go build
 > strings go-build-your-own-lisp | grep /Users/
@@ -158,6 +164,7 @@ After feeling a bit slimy looking up Surma's /Users/ directory, may as well out 
 
 So what did we learn here?
 --------------------------
+
 * Where to find the source code for the Udacity exercise binaries.
 * A way to determine which libraries a Go binary uses. (kinda redundant given the open source culture of the language community)
 * That you can get a little formation about the binary creator's directory structure for Go projects.
