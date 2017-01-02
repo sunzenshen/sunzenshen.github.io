@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What's In A Binary? Udacity: Client-Server Communication
+title: What's In A Binary? Udacity - Client-Server Communication
 categories: [lab_notes]
 tags: [binary_analysis, Go]
 description: Learning about useful open source libraries through simple string browsing of a Go binary file.
