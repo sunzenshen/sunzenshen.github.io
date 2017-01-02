@@ -165,8 +165,8 @@ After feeling a bit slimy looking up Surma's /Users/ directory, may as well out 
 So what did we learn here?
 --------------------------
 
-* Where to find the source code for the Udacity exercise binaries.
-* A way to determine which libraries a Go binary uses. (kinda redundant given the open source culture of the language community)
+* Where to find the source code for the Client-Server Communication exercise binaries.
+* A way to determine which libraries a Go binary uses. (usually redundant given the open source culture of the language community)
 * That you can get a little formation about the binary creator's directory structure for Go projects.
 
 I'm hopeful that the last item is not a big concern, given the prevalence of screencasts showing such information.
