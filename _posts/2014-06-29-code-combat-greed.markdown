@@ -8,7 +8,15 @@ description: I lost the (virtual) war and all I got was this (actually pretty ne
 
 Out of curiousity, I entered [CodeCombat’s Greed Tournament](http://codecombat.com/play/ladder/greed), about which an official writeup can be found [here](http://blog.codecombat.com/a-31-trillion-390-billion-statement-programming-war-between-545-wizards).
 
-I wasn’t expecting to win anything, but managed to qualify for a free [E-Book](http://shop.oreilly.com/category/ebooks.do). This was quite a surprise, as my [submission](https://gist.github.com/sunzenshen/69162943e479c78cf86a) was coded over the course of a single accidental all nighter. The approach of my solution was very simple and involved segmenting the area around each gold collector in 4 rectangles, and ordering the collector to move in a diagonal direction towards the most wealthy sector. If a collector was within a short range of the nearest item, then the collector would default to grabbing nearest neighbors. After tweaking a simple build queue for the fighting units and watching some simulated rounds, I called it quits and did not follow the tournament results until receiving the final placement E-mail.
+I wasn’t expecting to win anything, but managed to qualify for a free [E-Book](http://shop.oreilly.com/category/ebooks.do). This was quite a surprise, as my [submission](https://gist.github.com/sunzenshen/69162943e479c78cf86a) was coded over the course of a single accidental all nighter. The approach of my solution was very simple and involved segmenting the area around each gold collector in 4 rectangles, and ordering the collector to move in a diagonal direction towards the most wealthy sector.
+
+![Collector moves toward the corner with the most cash.]({{ site.url }}/images/codecombat_greedy_collector.jpeg)
+
+If a collector was within a short range of the nearest item, then the collector would default to grabbing nearest neighbors, before seeking wealthy sectors again.
+
+![Collector starts grabbing nearby loot, ignoring the previous sector seeking strategy.]({{ site.url }}/images/codecombat_lazy_collector.jpeg)
+
+After tweaking a simple build queue for the fighting units and watching some simulated rounds, I called it quits and did not follow the tournament results until receiving the final placement E-mail.
 
 Admittedly, I was psyched out by some of the more dynamic systems submitted, and assumed I would have walked away with nothing but the consolation prize of free [AWS credit](http://aws.amazon.com/). In the end though, with all the duplicate player entries accounted for, the arch-mage “Jinrai” ended up placing [#56 on the Ogres team](http://codecombat.com/play/ladder/greed#winners). While not a superstar finish, I got what I wanted out of the [prize pool](http://codecombat.com/play/ladder/greed#prizes).
 
