@@ -17,45 +17,7 @@ Step 1: Totally fail to use radare2
 To start, I thought it would be fun to follow Sushant's [An Introduction to radare2](http://sushant94.me/2015/05/31/Introduction_to_radare2/) as a first trial of radare2.
 I was able to load the binary with ```r2 ./devtools_mac_amd64```, but then immediately noticed that a [Go](https://golang.org/) library was in use:
 
-
-```
-[0x0005ef90]> VV @ sym.github.com_GeertJohan_go.rice_embedded.__EmbeddedBox_.Link (nodes 80 edges 117 zoom 100%) BB-NORM mouse:canvas-y movements-speed:5
-                                                      | cmp rbx, rbp                                                    |
-                                                      | je 0x5f22c ;[e]                                                 |
-                                                      `-----------------------------------------------------------------'
-                                                              f t
-            .-------------------------------------------------' '---------------------------------------------------------.
-            |                                                                                                             |
-            | .-----------------------------------------------------------------------------------------------------.     |
-    .-----------------------------------------------------------------------------------------------.               |     |
-    |  0x5f012 ;[h]                                                                                 |               |     |
-    |   ; JMP XREF from 0x0005f226 (sym.github.com_GeertJohan_go.rice_embedded.__EmbeddedBox_.Link) |               |     |
-    | mov rbx, qword [rsp + local_210h]                                                             |               |     |
-    |  ; [0x210:8]=0x4dc820 sym.runtime.pclntab ; " .M"                                             |               |     |
-    | mov rax, qword [rbx]                                                                          |               |     |
-    | mov rbx, qword [rsp + local_208h]                                                             |               |     |
-    |   `-  ; [0x208:8]=0                                                                           |               |     |
-    | cmp rbx, 0                                                                                    |               |     |
-    | je 0x5f9b3 ;[g]                                                                               |               |     |
-    `-----------------------------------------------------------------------------------------------'               |     |
-          t f                                                                                                       |     |
-          | '-------------------------------------------------------------------------------------------------.     |     |
-          |                                                                                                   |     |     |
-          |                                                                                                   |     |     |
-    .-----------------------------------------------------------------------------------------------.         |     |     |
-    |  0x5f9b3 ;[g]                                                                                 |         |     |     |
-    |   ; JMP XREF from 0x0005f029 (sym.github.com_GeertJohan_go.rice_embedded.__EmbeddedBox_.Link) |         |     |     |
-    | mov dword [rbx], eax                                                                          |         |     |     |
-    | jmp 0x5f02f ;[j]                                                                              |         |     |     |
-    `-----------------------------------------------------------------------------------------------'         |     |     |
-        v                                                                                                     |     |     |
-        '---------.   .---------------------------------------------------------------------------------------'     |     |
-                  |   |                                                                                             |     |
-                  |   |                                                                                             |     |
-              .-----------------------------------------------------------------------------------------------.     |     |
-              |  0x5f02f ;[j]                                                                                 |     |     |
-              |   ; JMP XREF from 0x0005f9b5 (sym.github.com_GeertJohan_go.rice_embedded.__EmbeddedBox_.Link) |     |     |
-```
+![Where to start...]({{ site.url }}/images/radare2_VV_sym.github.com_GeertJohan_go.rice_embedded.png)
 
 This gave me a hint that trying to examine the assembly code would be a bit too much for someone who hasn't fully Read The * Manual yet,
 but this also gave me the idea of looking at the strings in the file.
