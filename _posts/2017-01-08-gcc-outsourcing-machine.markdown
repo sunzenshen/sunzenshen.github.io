@@ -226,7 +226,7 @@ Tracking pre-populated floor tiles
 ----------------------------------
 Sometimes a level will provide constants that you can use from the floor:
 
-![Floor constants]({{ site. }}human_resource_machine_floor_constants.png)
+![Floor constants]({{ site.images }}human_resource_machine_floor_constants.png)
 
 You can define local variables to generate register offsets that you
 can track throughout the assembly program:
