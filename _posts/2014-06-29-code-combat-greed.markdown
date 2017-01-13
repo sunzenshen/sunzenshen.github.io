@@ -10,11 +10,11 @@ Out of curiousity, I entered [CodeCombat’s Greed Tournament](http://codecombat
 
 I wasn’t expecting to win anything, but managed to qualify for a free [E-Book](http://shop.oreilly.com/category/ebooks.do). This was quite a surprise, as my [submission](https://gist.github.com/sunzenshen/69162943e479c78cf86a) was coded over the course of a single accidental all nighter. The approach of my solution was very simple and involved segmenting the area around each gold collector in 4 rectangles, and ordering the collector to move in a diagonal direction towards the most wealthy sector.
 
-![Collector moves toward the corner with the most cash.]({{ site.url }}/images/codecombat_greedy_collector.jpeg)
+![Collector moves toward the corner with the most cash.]({{ site.images }}codecombat_greedy_collector.jpeg)
 
 If a collector was within a short range of the nearest item, then the collector would default to grabbing nearest neighbors, before seeking wealthy sectors again.
 
-![Collector starts grabbing nearby loot, ignoring the previous sector seeking strategy.]({{ site.url }}/images/codecombat_lazy_collector.jpeg)
+![Collector starts grabbing nearby loot, ignoring the previous sector seeking strategy.]({{ site.images }}codecombat_lazy_collector.jpeg)
 
 After tweaking a simple build queue for the fighting units and watching some simulated rounds, I called it quits and did not follow the tournament results until receiving the final placement E-mail.
 

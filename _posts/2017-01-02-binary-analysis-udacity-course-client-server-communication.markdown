@@ -17,7 +17,7 @@ Step 1: Totally fail to use radare2
 To start, I thought it would be fun to follow Sushant's [An Introduction to radare2](http://sushant94.me/2015/05/31/Introduction_to_radare2/) as a first trial of radare2.
 I was able to load the binary with ```r2 ./devtools_mac_amd64```, but then immediately noticed that a [Go](https://golang.org/) library was in use:
 
-![Where to start...]({{ site.url }}/images/radare2_VV_sym.github.com_GeertJohan_go.rice_embedded.png)
+![Where to start...]({{ site.images }}radare2_VV_sym.github.com_GeertJohan_go.rice_embedded.png)
 
 This gave me a hint that trying to examine the assembly code would be a bit too much for someone who hasn't fully Read The * Manual yet,
 but this also gave me the idea of looking at the strings in the file.

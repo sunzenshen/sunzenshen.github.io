@@ -36,7 +36,7 @@ This simplicity of the actions later becomes a hinderance,
 as the challenges become more unmanageable due to your limited expressive options.
 Eventually, the complexity of the algorithms requested leads to jump diagrams that literally look like interlaced spaghetti.
 
-![The instructions are the plate! Get it? Eh? :D]({{ site.url }}/images/human_resource_machine_spaghetti_jumps.png)
+![The instructions are the plate! Get it? Eh? :D]({{ site.images }}human_resource_machine_spaghetti_jumps.png)
 
 The idea suddenly struck me to use GCC assembly output as a way to solve the problems of Human Resource Machine
 in a higher level language.
@@ -116,7 +116,7 @@ That meant starting the first comparison with argument y instead of x as above.
 To aid in translation, I marked the assembly code with references to HRM instructions,
 and the HRM instructions with references to the generated x86 labels:
 
-![The mouse can't be the apex of handwriting technology...]({{ site.url }}/images/human_resource_machine_x86_labels.png)
+![The mouse can't be the apex of handwriting technology...]({{ site.images }}human_resource_machine_x86_labels.png)
 
 {% highlight text %}
 Exclusive_Lounge(int, int):
@@ -226,7 +226,7 @@ Tracking pre-populated floor tiles
 ----------------------------------
 Sometimes a level will provide constants that you can use from the floor:
 
-![Floor constants]({{ site.url }}/images/human_resource_machine_floor_constants.png)
+![Floor constants]({{ site. }}human_resource_machine_floor_constants.png)
 
 You can define local variables to generate register offsets that you
 can track throughout the assembly program:
