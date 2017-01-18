@@ -10,6 +10,7 @@ body{
 	position: fixed;
 	top: 0px;
 	padding-top: 10%;
+	background-color: #323f3f;
 	/* Background pattern from subtlepatterns.com */
 	background-image: url('/images/green-fibers.png');
 	color: #fff;
