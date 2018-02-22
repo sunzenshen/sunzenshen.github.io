@@ -15,5 +15,5 @@ I learned a lot adapting the [NAND 2 Tetris](http://www.nand2tetris.org/) materi
 Here, I'll update this post with the links to the blog series that I wrote about the whole process, as they are released on the planned cadence:
 
 * [Computing Digital Logic and Building Circuits in Alteryx Designer - (1/3) Digital Logic](https://community.alteryx.com/t5/Engine-Works-Blog/Computing-Digital-Logic-and-Building-Circuits-in-Alteryx/ba-p/132837)
-* Tune back Tuesday Feb 20th
+* [Computing Digital Logic and Building Circuits in Alteryx Designer - (2/3) ALU Design](https://community.alteryx.com/t5/Engine-Works-Blog/Computing-Digital-Logic-and-Building-Circuits-in-Alteryx/ba-p/90910)
 * Tune back Thursday Feb 22nd
