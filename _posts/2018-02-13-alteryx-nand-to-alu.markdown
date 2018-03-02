@@ -17,8 +17,3 @@ Here, I'll update this post with the links to the blog series that I wrote about
 * [Computing Digital Logic and Building Circuits in Alteryx Designer - (1/3) Digital Logic](https://community.alteryx.com/t5/Engine-Works-Blog/Computing-Digital-Logic-and-Building-Circuits-in-Alteryx/ba-p/132837)
 * [Computing Digital Logic and Building Circuits in Alteryx Designer - (2/3) ALU Design](https://community.alteryx.com/t5/Engine-Works-Blog/Computing-Digital-Logic-and-Building-Circuits-in-Alteryx/ba-p/90910)
 * [Computing Digital Logic and Building Circuits in Alteryx Designer - (3/3) TODO: A CPU](https://community.alteryx.com/t5/Engine-Works-Blog/Computing-Digital-Logic-and-Building-Circuits-in-Alteryx/ba-p/109418)
-
-Wayback Machine links:
-* [Computing Digital Logic and Building Circuits in Alteryx Designer - (1/3) Digital Logic](https://web.archive.org/web/20180302071204/https://community.alteryx.com/t5/Engine-Works-Blog/Computing-Digital-Logic-and-Building-Circuits-in-Alteryx/ba-p/132837)
-* [Computing Digital Logic and Building Circuits in Alteryx Designer - (2/3) ALU Design](https://web.archive.org/web/20180302071513/https://community.alteryx.com/t5/Engine-Works-Blog/Computing-Digital-Logic-and-Building-Circuits-in-Alteryx/ba-p/90910)
-* [Computing Digital Logic and Building Circuits in Alteryx Designer - (3/3) TODO: A CPU](https://web.archive.org/web/20180302071605/https://community.alteryx.com/t5/Engine-Works-Blog/Computing-Digital-Logic-and-Building-Circuits-in-Alteryx/ba-p/109418)
