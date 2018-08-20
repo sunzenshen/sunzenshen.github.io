@@ -28,3 +28,10 @@ One thing that I need to ask myself more often:
 Is the [sensation of forward progress](http://calnewport.com/blog/2011/12/23/flow-is-the-opiate-of-the-medicore-advice-on-getting-better-from-an-accomplished-piano-player/) real?
 Or do I really need to seek discomfort and engage in the [deliberate practice](http://calnewport.com/blog/2010/01/06/the-grandmaster-in-the-corner-office-what-the-study-of-chess-experts-teaches-us-about-building-a-remarkable-life/) needed for deep understanding?
 
+Discussion
+----------
+> Like this post, or would like to discuss it on some sort of forum?
+> Feel free to post it on your favorite social media site (HN, Reddit, Lobste.rs, etc), and to send me the link!
+> I promise to relink the discussion thread from this post, and to upvote your submission.
+> It'll be win-win: you'll rake in the sweet-sweet karma/points/upvotes,
+> and I won't need to worry about hunting spam-bots in an otherwise empty Disqus thread.
