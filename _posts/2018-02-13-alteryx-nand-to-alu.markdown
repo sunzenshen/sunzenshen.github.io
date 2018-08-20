@@ -17,3 +17,11 @@ Here, I'll update this post with the links to the blog series that I wrote about
 * [Computing Digital Logic and Building Circuits in Alteryx Designer - (1/3) Digital Logic](https://community.alteryx.com/t5/Engine-Works-Blog/Computing-Digital-Logic-and-Building-Circuits-in-Alteryx/ba-p/132837)
 * [Computing Digital Logic and Building Circuits in Alteryx Designer - (2/3) ALU Design](https://community.alteryx.com/t5/Engine-Works-Blog/Computing-Digital-Logic-and-Building-Circuits-in-Alteryx/ba-p/90910)
 * [Computing Digital Logic and Building Circuits in Alteryx Designer - (3/3) TODO: A CPU](https://community.alteryx.com/t5/Engine-Works-Blog/Computing-Digital-Logic-and-Building-Circuits-in-Alteryx/ba-p/109418)
+
+
+
+> Like this post, or would like to discuss it on some sort of forum?
+> Feel free to post it on your favorite social media site (HN, Reddit, Lobste.rs, etc), and to send me the link!
+> I promise to relink the discussion thread from this post, and to upvote your submission.
+> It'll be win-win: you'll rake in the sweet-sweet karma/points/upvotes,
+> and I won't need to worry about hunting spam-bots in an otherwise empty Discus thread.
