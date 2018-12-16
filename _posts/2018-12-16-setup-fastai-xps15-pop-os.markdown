@@ -3,11 +3,8 @@ layout: post
 title: Setting up fast.ai on an Dell XPS15 9570 with Pop!_OS
 categories: [Tutorials]
 tags: [fast.ai, Python, Jupyter]
-description: Hopefully this doesn't nuke anyone's laptop.
+description: Hopefully the act of reading this writeup does not result in the nuking of anyone else's drive partitions or laptop.
 ---
-
-Setting up fast.ai on an Dell XPS15 9570 with Pop!_OS
----------------------
 
 In these notes, I will attempt to recall the main points of interest
 that I encountered as I worked to port over the
