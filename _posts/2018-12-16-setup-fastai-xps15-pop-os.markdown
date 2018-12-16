@@ -23,7 +23,7 @@ In case the internet loses all recollection of the contents of this model, it in
 Installing Pop!_OS as dual boot with Windows 10
 -----------------------------------------------
 I settled on using Pop!_OS as the Linux distribution.
-* [https://system76.com/pop]()
+* [system76.com/pop](https://system76.com/pop)
 
 My reasoning for this doesn't really extend beyond my seeing testimonials that Pop!_OS runs on a Dell XPS15 with minimal fuss after installation, especially if the Nvidia version of their ISO images is used to have drivers right after install.
 System76, the distro maintainer, also maintains their own apt installs for the NVIDIA CUDA Toolkit. I am also using the 18.04 LTS version, as I saw some complaints that Linux on XPS13/15 installs could get corrupted from upgrading between major versions.
@@ -44,7 +44,7 @@ One panic surprise I encountered was that I couldn't enable Windows Safe Mode af
 Peter Pang and chenxiaolong's posts point out that it's easier to enable Safe Mode _before_ enabling AHCI, otherwise Windows will not boot.
 Also, you can't use pin or fingerprint login while in Safe Mode, so plan how to log into Safe Mode accordingly.
 
-* [https://support.system76.com/articles/live-disk/]()
+* [support.system76.com/articles/live-disk/](https://support.system76.com/articles/live-disk/)
 
 I second the recommendation of using Etcher for writing a bootable USB stick.
 
@@ -57,10 +57,10 @@ I haven't totally gone through Patrick Waters' Post-Installation recommendations
 Setting up fast.ai with the Paperspace script
 ---------------------------------------------
 To set up fast.ai's course repository, I started off with the paperspace script:
-* [http://files.fast.ai/setup/paperspace]()
+* [files.fast.ai/setup/paperspace](http://files.fast.ai/setup/paperspace)
 
 However, there were a few tweaks I needed to make, to get it working:
-* [https://github.com/sunzenshen/fast-ai-notes/blob/master/paperspace_pop_os.sh]()
+* [github.com/sunzenshen/fast-ai-notes/blob/master/paperspace_pop_os.sh](https://github.com/sunzenshen/fast-ai-notes/blob/master/paperspace_pop_os.sh)
 
 To summarize my divergence:
 * The directory of `/etc/apt/apt.conf.d/*.*` does not exist, so I skipped that removal step.
@@ -82,14 +82,14 @@ E: Unable to correct problems, you have held broken packages.
 ```
 
 My workaround for this dependency error was to use Pop!_OS's maintained version of the NVIDIA CUDA Toolkit:
-* [https://support.system76.com/articles/cuda/]()
+* [support.system76.com/articles/cuda/](https://support.system76.com/articles/cuda/)
 
 (Also note that virtual machines do not support GPU passthrough as of this writing.  Don't be like me and not realize this when setting up an Ubuntu image on a VMWare player.)
 
 Setting up Jupyter Notebook to run from localhost
 -------------------------------------------------
 To check that my setup is working, I followed the post-paperspace-setup steps from lesson 1:
-* [https://course.fast.ai/lessons/lesson1.html]()
+* [course.fast.ai/lessons/lesson1.html](https://course.fast.ai/lessons/lesson1.html)
 
 The following assumes the commands are run in ~/fastai/ :
 
@@ -107,7 +107,7 @@ ValueError: '' does not appear to be an IPv4 or IPv6 address
 ```
 
 The solution was found in the discussion at
-* [https://forums.fast.ai/t/jupyter-notebook-keyerror-allow-remote-access/24392/8]()
+* [forums.fast.ai/t/jupyter-notebook-keyerror-allow-remote-access/24392/8](https://forums.fast.ai/t/jupyter-notebook-keyerror-allow-remote-access/24392/8)
 
 In a nutshell, I needed to create jupyter_notebook_config.py in ~/fastai/, and to set the IP address to localhost:
 ```
