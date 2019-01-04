@@ -135,7 +135,7 @@ torch.backends.cudnn.enabled()
 
 Because I was not using Paperspace or Crestle, I needed to download the dogs and cats dataset into the ~/fastai/data/ folder:
 ```
-~/fastai/data$ wget wget http://files.fast.ai/data/dogscats.zip
+~/fastai/data$ wget http://files.fast.ai/data/dogscats.zip
 ```
 
 So how long did it take to use the resnet34 model for the first dogs/cat exercise?
