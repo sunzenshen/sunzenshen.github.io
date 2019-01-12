@@ -60,7 +60,7 @@ To set up fast.ai's course repository, I started off with the paperspace script:
 * [files.fast.ai/setup/paperspace](http://files.fast.ai/setup/paperspace)
 
 However, there were a few tweaks I needed to make, to get it working:
-* [github.com/sunzenshen/fast-ai-notes/blob/master/paperspace_pop_os.sh](https://github.com/sunzenshen/fast-ai-notes/blob/master/paperspace_pop_os.sh)
+* [paperspace_pop_os.sh](https://gist.github.com/sunzenshen/b44b3bc24de8fe818ef11bf741b6be1c#file-paperspace_pop_os-sh)
 
 To summarize my divergence:
 * The directory of `/etc/apt/apt.conf.d/*.*` does not exist, so I skipped that removal step.
