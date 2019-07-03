@@ -12,7 +12,7 @@ a data analytics platform that I spend a lot of time with due to work. ;)
 While this project started off as an elaborate practical joke to surprise colleagues,
 I learned a lot adapting the [NAND 2 Tetris](http://www.nand2tetris.org/) material to an unusual environment.
 
-Here, I'll update this post with the links to the blog series that I wrote about the whole process, as they are released on the planned cadence:
+This project culminated in a trilogy of articles that I wrote for the Alteryx Engine Works blog, which can be found here:
 
 * [Computing Digital Logic and Building Circuits in Alteryx Designer - (1/3) Digital Logic](https://community.alteryx.com/t5/Engine-Works-Blog/Computing-Digital-Logic-and-Building-Circuits-in-Alteryx/ba-p/132837)
 * [Computing Digital Logic and Building Circuits in Alteryx Designer - (2/3) ALU Design](https://community.alteryx.com/t5/Engine-Works-Blog/Computing-Digital-Logic-and-Building-Circuits-in-Alteryx/ba-p/90910)
