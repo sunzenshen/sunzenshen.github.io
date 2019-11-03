@@ -93,7 +93,7 @@ which explores how layers in the Roots of Trust concept can affect the security 
 even if we take the integrity of things like the supply chain of consumer hardware and the integrity of our compiler software for granted.
 Between the CppCon and C++Now version of this talk, I would actually recommend the C++Now version as it has an extra half hour of content and may have been less compressed than the CppCon version.
 
-[Preventing Spectre One Branch at a Time: The Design and Implementation of Fine Grained Spectre v1 Mitigation APIs](https://cppcon2019.sched.com/event/SfdX/preventing-spectre-one-branch-at-a-time-the-design-and-implementation-of-fine-grained-spectre-v1-mitigation-apis)
+[Preventing Spectre One Branch at a Time: The Design and Implementation of Fine Grained Spectre v1 Mitigation APIs](https://www.youtube.com/watch?v=ehNkhmEg0bw)
 discusses the mitigations available for Spectre v1,
 such as [lfence](https://newsroom.intel.com/wp-content/uploads/sites/11/2018/01/Intel-Analysis-of-Speculative-Execution-Side-Channels.pdf) insertions into assembly code
 and [Speculative Load Hardening](https://llvm.org/docs/SpeculativeLoadHardening.html) of compiler output.
@@ -126,11 +126,11 @@ The following is a list of talks that friends/colleagues saw and recommended, in
 * [Phil Nash “The Dawn of a New Error”](https://www.youtube.com/watch?v=ZUH8p1EQswA)
 * [Stephen Dewhurst “TMI on UDLs: Mechanics, Uses, and Abuses of User-Defined Literals”](https://www.youtube.com/watch?v=gxMiiI19VnQ)
 * [Hana Dusíková “A State of Compile Time Regular Expressions”](https://www.youtube.com/watch?v=8dKWdJzPwHw)
-* [Anthony Williams "Concurrency in C++20 and Beyond"](https://cppcon2019.sched.com/event/SfpS/concurrency-in-c20-and-beyond)
-* [Matt Godbolt "Path Tracing Three Ways: A Study of C++ Style"](https://cppcon2019.sched.com/event/SftY/path-tracing-three-ways-a-study-of-c-style)
-* [Ben Saks "Better Code with C++ Attributes"](https://cppcon2019.sched.com/event/Sfo2/better-code-with-c-attributes)
-* [Bob Steagall "The Business Value of a Good API"](https://cppcon2019.sched.com/event/SfnE/the-business-value-of-a-good-api)
-* [Corentin Jabot "Dependency Management at the End of the Rainbow"](https://cppcon2019.sched.com/event/SfsF/dependency-management-at-the-end-of-the-rainbow)
+* [Anthony Williams "Concurrency in C++20 and Beyond"](https://www.youtube.com/watch?v=jozHW_B3D4U)
+* [Matt Godbolt "Path Tracing Three Ways: A Study of C++ Style"](https://www.youtube.com/watch?v=HG6c4Kwbv4I)
+* [Ben Saks "Better Code with C++ Attributes"](https://www.youtube.com/watch?v=teUA5U6eYQY)
+* [Bob Steagall "The Business Value of a Good API"](https://www.youtube.com/watch?v=S7gGtYqtNNo)
+* [Corentin Jabot "Dependency Management at the End of the Rainbow"](https://www.youtube.com/watch?v=k3Q-fPBe9Z0)
 
 Talks/resources from the past:
 =====================================
@@ -143,6 +143,6 @@ These were talks and other resources that were mentioned at the conference, yet 
 * [C++Now 2018: Jason Turner “Initializer Lists Are Broken, Let's Fix Them”](https://www.youtube.com/watch?v=sSlmmZMFsXQ)
 * [C++ and Beyond 2012: Andrei Alexandrescu - Systematic Error Handling in C++](https://channel9.msdn.com/Shows/Going+Deep/C-and-Beyond-2012-Andrei-Alexandrescu-Systematic-Error-Handling-in-C)
 * Concurrent data structures are very hard to get right, but Rainer Grimm recommends [Max Khizhinsky's C++ library of Concurrent Data Structures](https://github.com/khizmax/libcds).
-* [Herb Sutter's proposal for atomic smart pointers](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4162.pdf) was mentioned in both Rainer's concurrency class and Matthew's security class. The thing to remember about std::shared_ptr<T> is that while the shared_ptr is atomic-friendly, the <T> that it is holding is NOT protected.
+* [Herb Sutter's proposal for atomic smart pointers](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n4162.pdf) was mentioned in both Rainer's concurrency class and Matthew's security class. The thing to remember about `std::shared_ptr<T>` is that while the shared_ptr is atomic-friendly, the `<T>` that it is holding is NOT protected.
 * [How To Write Shared Libraries by Ulrich Drepper](https://www.akkadia.org/drepper/dsohowto.pdf) was mentioned in the [Milian Wolff “How to Write a Heap Memory Profiler”](https://www.youtube.com/watch?v=YB0QoWI-g8E) talk. Drepper is the same author of [What Every Programmer Should Know About Memory](https://www.akkadia.org/drepper/cpumemory.pdf) fame.
 
