@@ -23,3 +23,5 @@ The structure of my talk was as follows:
 
 If any of that piqued your interest, I really recommend looking through the [slides](https://docs.google.com/presentation/d/189Mmot1dR8SJpBUtVU_v1IuGTrFM4Wreen1dQWlKjX8/edit?usp=sharing).
 Screenshots from the game are heavily annotated to highlight different aspects of the code, and some of the tricks that fidelSolver employed were quite clever.
+
+![Example breakdown of fidelSolver's image recognition]({{ site.images }}fidelsolver_hackmatch_pixel_scan_breakdown.png)
