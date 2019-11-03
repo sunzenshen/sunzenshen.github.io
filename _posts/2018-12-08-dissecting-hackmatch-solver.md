@@ -13,7 +13,7 @@ Around this time, I had been meaning to read through [fidelSolver's](https://www
 
 ![fidelSolver's bot in action]({{ site.images }}fidelsolver_hackmatch_in_action.gif)
 
-My [slides from that talk can be found here](https://docs.google.com/presentation/d/189Mmot1dR8SJpBUtVU_v1IuGTrFM4Wreen1dQWlKjX8/edit?usp=sharing). Feel free to reach out if you have questions on the context of specific slides, either through Email or by directly commenting on the document.
+**My [slides from that talk can be found here](https://docs.google.com/presentation/d/189Mmot1dR8SJpBUtVU_v1IuGTrFM4Wreen1dQWlKjX8/edit?usp=sharing).** Feel free to reach out if you have questions on the context of specific slides, either through Email or by directly commenting on the document.
 
 The structure of my talk was as follows:
 * Showing the bot in action, to establish context for the code. In addition to the verbal disclaimers that I did NOT write this bot, I also explained the basic rules of the game.
@@ -23,5 +23,7 @@ The structure of my talk was as follows:
 
 If any of that piqued your interest, I really recommend looking through the [slides](https://docs.google.com/presentation/d/189Mmot1dR8SJpBUtVU_v1IuGTrFM4Wreen1dQWlKjX8/edit?usp=sharing).
 Screenshots from the game are heavily annotated to highlight different aspects of the code, and some of the tricks that fidelSolver employed were quite clever.
+
+
 
 ![Example breakdown of fidelSolver's image recognition]({{ site.images }}fidelsolver_hackmatch_pixel_scan_breakdown.png)
