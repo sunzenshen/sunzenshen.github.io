@@ -11,6 +11,8 @@ Around this time, I had been meaning to read through [fidelSolver's](https://www
 
 [Footage of their bot in action can be found on their YouTube channel.](https://www.youtube.com/watch?v=vauEdAkAXSE)
 
+![fidelSolver's bot in action]({{ site.images }}fidelsolver_hackmatch_in_action.gif)
+
 My [slides from that talk can be found here](https://docs.google.com/presentation/d/189Mmot1dR8SJpBUtVU_v1IuGTrFM4Wreen1dQWlKjX8/edit?usp=sharing). Feel free to reach out if you have questions on the context of specific slides, either through Email or by directly commenting on the document.
 
 The structure of my talk was as follows:
