@@ -14,9 +14,20 @@ I learned a lot adapting the [NAND 2 Tetris](http://www.nand2tetris.org/) materi
 
 This project culminated in a trilogy of articles that I wrote for the Alteryx Engine Works blog, which can be found here:
 
-* [Computing Digital Logic and Building Circuits in Alteryx Designer - (1/3) Digital Logic](https://community.alteryx.com/t5/Engine-Works-Blog/Computing-Digital-Logic-and-Building-Circuits-in-Alteryx/ba-p/132837)
-* [Computing Digital Logic and Building Circuits in Alteryx Designer - (2/3) ALU Design](https://community.alteryx.com/t5/Engine-Works-Blog/Computing-Digital-Logic-and-Building-Circuits-in-Alteryx/ba-p/90910)
-* [Computing Digital Logic and Building Circuits in Alteryx Designer - (3/3) TODO: A CPU](https://community.alteryx.com/t5/Engine-Works-Blog/Computing-Digital-Logic-and-Building-Circuits-in-Alteryx/ba-p/109418)
+[Computing Digital Logic and Building Circuits in Alteryx Designer - (1/3) Digital Logic](https://community.alteryx.com/t5/Engine-Works-Blog/Computing-Digital-Logic-and-Building-Circuits-in-Alteryx/ba-p/132837)
+-----------------
+
+![Phase 1 Digital Logic]({{ site.images }}ayx_alu_OR.yxmc.jpg)
+
+[Computing Digital Logic and Building Circuits in Alteryx Designer - (2/3) ALU Design](https://community.alteryx.com/t5/Engine-Works-Blog/Computing-Digital-Logic-and-Building-Circuits-in-Alteryx/ba-p/90910)
+-----------------
+
+![Phase 2 ALU]({{ site.images }}ayx_alu_ALU4B.jpg)
+
+[Computing Digital Logic and Building Circuits in Alteryx Designer - (3/3) TODO: A CPU](https://community.alteryx.com/t5/Engine-Works-Blog/Computing-Digital-Logic-and-Building-Circuits-in-Alteryx/ba-p/109418)
+-----------------
+
+![Phase 3 CPU]({{ site.images }}ayx_alu_CPU_wip.yxmc.jpg)
 
 
 
