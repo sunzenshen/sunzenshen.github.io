@@ -65,11 +65,3 @@ Regardless of how many people you know, the energy of being in a time and place 
 But proportional to any investments in travel and lodging expenses,
 I would recommend investing some time in getting to know fellow attendees,
 long before the event has even started.
-
-Discussion
-----------
-> Like this post, or would like to discuss it on some sort of forum?
-> Feel free to post it on your favorite social media site (HN, Reddit, Lobste.rs, etc), and to send me the link!
-> I promise to relink the discussion thread from this post, and to upvote your submission.
-> It'll be win-win: you'll rake in the sweet-sweet karma/points/upvotes,
-> and I won't need to worry about hunting spam-bots in an otherwise empty Disqus thread.

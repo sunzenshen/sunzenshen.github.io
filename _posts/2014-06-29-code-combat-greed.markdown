@@ -23,11 +23,3 @@ Admittedly, I was psyched out by some of the more dynamic systems submitted, and
 After reading some of the retrospectives, it was surprising that traditional theory on the traveling salesman problem was not used by the top two players. This made some sense, as the conditions were dynamic to the point that collectors were tricked into fatally running off the map. Michael Heasell’s [retrospective](http://michaelheasell.com/blog/2014/06/19/greed-2014-the-road-to-victory/) was especially interesting, as his “springs” model was inspiring for its intuitive nature.
 
 All in all, the tournament was definitely a fun experience. I probably should feel more remorse for stopping so early in the competition, but it was oddly rewarding to win my desired [prize](http://shop.oreilly.com/product/0636920029236.do) with relatively little effort. The number of writeups and retrospectives were very amusing to read over, in a forehead-slapping “why didn’t I think of that!” way. I’m definitely looking forward to the future events with CodeCombat, where we can witness more impressive feats from the top competitors.
-
-Discussion
-----------
-> Like this post, or would like to discuss it on some sort of forum?
-> Feel free to post it on your favorite social media site (HN, Reddit, Lobste.rs, etc), and to send me the link!
-> I promise to relink the discussion thread from this post, and to upvote your submission.
-> It'll be win-win: you'll rake in the sweet-sweet karma/points/upvotes,
-> and I won't need to worry about hunting spam-bots in an otherwise empty Disqus thread.

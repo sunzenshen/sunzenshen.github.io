@@ -165,10 +165,3 @@ but hopefully I can remember something that I forgot to put into this guide.
 Best of luck on your own setup!
 
 -Alan
-
-
-> Like this post, or would like to discuss it on some sort of forum?
-> Feel free to post it on your favorite social media site (HN, Reddit, Lobste.rs, etc), and to send me the link!
-> I promise to relink the discussion thread from this post, and to upvote your submission.
-> It'll be win-win: you'll rake in the sweet-sweet karma/points/upvotes,
-> and I won't need to worry about hunting spam-bots in an otherwise empty Disqus thread.
