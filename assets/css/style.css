@@ -70,7 +70,7 @@ article .share .twitter:hover {
 	color: #CC2127;
 }
 #contact-list li:hover .fa-rss {
-	color: #333D3F;
+	color: #e74c3c;
 }
 article .share .facebook:hover {
 	color: #43609C;
@@ -86,7 +86,7 @@ article .share .gplus:hover {
 }
 
 .page-header {
-	color: #333D3F;
+	color: #e74c3c;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
@@ -127,20 +127,20 @@ article.home h4,
 article.home h5,
 article.home h6 {
 	font-family: 'Ubuntu', sans-serif;
-	color: #333D3F;
+	color: #f2756a;
 }
 
 article.home h1 a,
 article.home h2 a,
 article.home h3 a,
 article.home h4 a {
-	color: #333D3F;
+	color: #f2756a;
 }
 article.home h1 a:hover,
 article.home h2 a:hover,
 article.home h3 a:hover,
 article.home h4 a:hover {
-	color: #2d7482;
+	color: #e74c3c;
 }
 
 .author .author-image {
@@ -176,7 +176,7 @@ footer {
     border-radius: 4px 0 0 4px;
 }
 
-.badge { background: #333D3F; }
+.badge { background: #F2756A; }
 
 #nav-menu{
     position: fixed;
