@@ -8,8 +8,6 @@ description: Impressions from winning the SnowFroc 2023 Secure Code Warrior Tour
 
 Disclosure: Representatives of the company Secure Code Warrior gifted me an etched glass 1st place trophy, as well as a Secure Code Warrior branded thermal coffee mug.
 
-![Receiving the Secure Code Warrior SnowFroc Tournament Champion 2023 trophy on stage.]({{ site.images }}2023_snowfroc_scw_trophy.jpg)
-
 At [SnowFroc 2023](https://www.snowfroc.com/), [Secure Code Warrior](https://www.securecodewarrior.com/) held another tournament based on their learning platform.  A colleague of mine, [Matt Goodrich](https://mattgoodrich.com/) had won the tournament twice before, and I decided to take advantage of his moving to Washington state to enter the competition in his absence.  In the end, I found the competition an oddly engrossing way to practice security code reviews, especially when it became apparent that a small collection of competitors was racing for the most points. It also didn't hurt to win first place, mostly to get a podium picture to send to Matt.  What follows are impressions from the Secure Code Warrior tournament, which may be of niche interest if you are deciding on whether it's worth signing up for a future competition, or if you're evaluating options for a code review training platform.
 
 Secure Code Warrior is a unique take on security training due to its focus on code review. While the mainstay of its assessments are multiple choice questions like with many other security learning platforms, Secure Code Warrior's twist is that the potential answers are sections of code in the context of multi-file diff comparisons.  
@@ -36,3 +34,5 @@ As a way to learn during the competition, a player could choose to get a hint at
 It seems this lack of penalty for wrong guesses was noticed, as by the end of the competition, the dashboard indicated that my competition had attempted many more questions than I did, but I still won due to having more questions answered accurately. The easiest questions didn't have a huge difference in points to the harder levels, so I still felt it was a good use of time to take time to answer earlier questions more accurately.
 
 I was fortunate to prevail in the end, and I would like to thank work for bombarding me with application security code reviews, which coincidentally prepared me for this competition.
+
+![Receiving the Secure Code Warrior SnowFroc Tournament Champion 2023 trophy on stage.]({{ site.images }}2023_snowfroc_scw_trophy.jpg)
