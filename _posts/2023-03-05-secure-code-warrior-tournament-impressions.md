@@ -3,7 +3,7 @@ layout: post
 title: Secure Code Warrior Impressions
 categories: [competitions]
 tags: [security, code review, conferences]
-description: Impressions from winning the SnowFroc 2023 Secure Code Warrior Tournament
+description: Impressions from winning the SnowFroc 2023 Secure Code Warrior Tournament.
 ---
 
 Disclosure: Representatives of the company Secure Code Warrior gifted me an etched glass 1st place trophy, as well as a Secure Code Warrior branded thermal coffee mug.

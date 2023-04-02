@@ -3,7 +3,7 @@ layout: post
 title: Cgo(tchas)
 categories: [tutorials]
 tags: [Go, Cgo, C, Lisp]
-description: Exploring tricky Cgo situations when working with a simple C library
+description: Exploring tricky Cgo situations when working with a simple C library.
 ---
 
 When working an existing C library into a [Go](http://golang.org/) project using [Cgo](http://golang.org/cmd/cgo/),
