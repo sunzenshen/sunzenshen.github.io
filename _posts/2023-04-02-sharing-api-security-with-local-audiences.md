@@ -3,7 +3,7 @@ layout: post
 title: Tailoring API Security Talks For Local Audiences
 categories: [training]
 tags: [security, testing, api]
-description: The challenges of trying to condense weeks worth of reference material into an hour or two for local audiences.
+description: The challenges of trying to condense weeks worth of reference material into an hour or two for local audiences
 ---
 
 Recently I have been exploring the topic of API security, in part due to the recent wave of interest that followed the release of the book ["Hacking APIs by Corey Ball"](https://nostarch.com/hacking-apis).

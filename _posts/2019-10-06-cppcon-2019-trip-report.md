@@ -3,7 +3,7 @@ layout: post
 title: CppCon 2019 Trip Report 
 categories: [reports]
 tags: [cpp, conventions]
-description: Postcard from sunny Aurora, Colorado.
+description: Postcard from sunny Aurora, Colorado
 ---
 
 Yet Another CppCon 2019 Trip Report

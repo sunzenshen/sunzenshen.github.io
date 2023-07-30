@@ -3,7 +3,7 @@ layout: post
 title: CodeCombat Greed
 categories: [competitions]
 tags: [javascript]
-description: I lost the (virtual) war and all I got was this (actually pretty neat) E-book.
+description: I lost the (virtual) war and all I got was this (actually pretty neat) E-book
 ---
 
 Out of curiousity, I entered [CodeCombat’s Greed Tournament](http://codecombat.com/play/ladder/greed), about which an official writeup can be found [here](http://blog.codecombat.com/a-31-trillion-390-billion-statement-programming-war-between-545-wizards).

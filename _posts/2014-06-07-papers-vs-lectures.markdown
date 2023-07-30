@@ -3,7 +3,7 @@ layout: post
 title: Understanding Papers the Hard Way
 catergories: [events]
 tags: [distributed systems, social]
-description: On wandering dangerously close towards delusions of comprehension.
+description: On wandering dangerously close towards delusions of comprehension
 ---
 
 Preparing to attend a local [Papers We Love](http://www.meetup.com/Papers-We-Love-Boulder/) meetup,

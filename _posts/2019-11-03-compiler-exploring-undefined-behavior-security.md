@@ -3,7 +3,7 @@ layout: post
 title: Compiler Explorer - Investigating undefined behavior and optimization in C++ 
 categories: [presentations]
 tags: [C++, assembly, undefined-behavior, nasal-demons, security]
-description: Slides from my October 2019 DC303 talk.
+description: Slides from my October 2019 DC303 talk
 ---
 
 Abstract: [Compiler Explorer](https://godbolt.org/) is a neat tool not just for exploring the assembly output of compiled source code, but to analyze weird bugs that result from [compiler optimization](https://en.wikipedia.org/wiki/Optimizing_compiler) and [undefined behavior](https://en.wikipedia.org/wiki/Undefined_behavior).

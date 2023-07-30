@@ -3,7 +3,7 @@ layout: post
 title: Dissecting fidelSolver's Game Bot for Playing Hack*Match
 categories: [presentations]
 tags: [C++, Reverse-Engineering]
-description: Slides from my December 2018 North Denver Metro C++ Meetup lightning talk.
+description: Slides from my December 2018 North Denver Metro C++ Meetup lightning talk
 ---
 
 For [December's meeting of the North Denver Metro C++ Meetup](https://www.meetup.com/North-Denver-Metro-C-Meetup/events/255297745/), attendees were encouraged to give 5-10 minute lightning talks.

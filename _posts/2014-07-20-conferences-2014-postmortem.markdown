@@ -3,7 +3,7 @@ layout: post
 title: Conference Backchannels and Information Overload
 categories: [events]
 tags: [conferences, social]
-description: On social interactions long before meeting face-to-face.
+description: On social interactions long before meeting face-to-face
 ---
 
 Earlier this year, I made it a point to attend more conferences,

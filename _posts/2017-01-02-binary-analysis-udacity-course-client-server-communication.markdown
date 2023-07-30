@@ -3,7 +3,7 @@ layout: post
 title: What's In A Binary? Udacity - Client-Server Communication
 categories: [lab_notes]
 tags: [binary_analysis, Go]
-description: Discovering useful open source libraries through string browsing of a Go binary file.
+description: Discovering useful open source libraries through string browsing of a Go binary file
 ---
 
 Recently, I took Udacity's short and free [Client-Server Communication](https://www.udacity.com/course/client-server-communication--ud897) course to review HTTP concepts.

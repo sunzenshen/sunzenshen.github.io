@@ -3,7 +3,7 @@ layout: post
 title: How I Start - C# on Mac OS X
 categories: [tutorials]
 tags: [C#]
-description: How to get started with solving C# exercism.io exercises with Xamarin Studio on Mac OS X.
+description: How to get started with solving C# exercism.io exercises with Xamarin Studio on Mac OS X
 ---
 
 While working on the C# exercises from [exercism.io](http://exercism.io/),

@@ -3,7 +3,7 @@ layout: post
 title: LambdaConf 2014 Resources
 categories: [events]
 tags: [functional programming, conferences, social]
-description: Notes on LambdaConf 2014.
+description: Notes on LambdaConf 2014
 ---
 
 On April 19th, I spent the day at [LambdaConf](http://www.degoesconsulting.com/lambdaconf/),

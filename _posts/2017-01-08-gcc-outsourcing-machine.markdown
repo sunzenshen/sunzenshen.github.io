@@ -3,7 +3,7 @@ layout: post
 title: GCC Driven Design for the Human Resource Machine
 categories: [play]
 tags: [assembler, C, x86]
-description: Contracting Godbolt's Compiler Explorer as a "consultant" for the Human Resource Machine.
+description: Contracting Godbolt's Compiler Explorer as a "consultant" for the Human Resource Machine
 ---
 
 > This game further cemented my belief that I do not want to use assembler for any serious project.

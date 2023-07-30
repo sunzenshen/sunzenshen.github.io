@@ -3,7 +3,7 @@ layout: post
 title: Log4J Retrospective Discussion with the DC303
 categories: [presentations]
 tags: [security]
-description: Slides from my ice breaker presentation for the January 2022 DC303 round table discussion on Log4J.
+description: Slides from my ice breaker presentation for the January 2022 DC303 round table discussion on Log4J
 ---
 
 To kick off the new year and fill a gap in the [DC303](https://dc303.org/) talks schedule, I volunteered to present an interactive [vulnerability retrospective talk](https://www.meetup.com/DC303Denver/events/281979560/) on the [Log4J RCE vulnerabilities](https://www.cisa.gov/uscert/apache-log4j-vulnerability-guidance).
