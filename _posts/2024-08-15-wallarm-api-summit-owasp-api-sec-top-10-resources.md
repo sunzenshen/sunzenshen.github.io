@@ -22,3 +22,6 @@ With the condensed version of the talk, I experimented with making the slides le
 
 
 As usual, I still highly recommend Cory Ball's online courses at [API Sec University](https://www.apisecuniversity.com/), but as other people have pointed out, I am available locally or online if you have any questions about the topic.
+
+P.S. For the SnowFROC 2025 version of this talk, I added more refinements to the slides here:
+*  [SnowFROC 2025 version of the talk slides](https://docs.google.com/presentation/d/1WgdRyXRPNatYuvon8M_0dfBzg_-J4zilkJgJ1Ibobic/edit?usp=sharing)

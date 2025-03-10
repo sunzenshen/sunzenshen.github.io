@@ -6,6 +6,8 @@ tags: [security, testing, api, owasp]
 description: With an additional opportunity for live practice at DC303 this month.
 ---
 
+Post-conference update: Slides for this talk can be found here: [slides](https://docs.google.com/presentation/d/1WgdRyXRPNatYuvon8M_0dfBzg_-J4zilkJgJ1Ibobic/edit?usp=sharing)
+
 [OWASP](https://owasp.org/) will be holding its annual [SnowFROC](https://snowfroc.com/) conference in Denver, Colorado on March 14, 2025. This year, I was invited to give an updated version of my talk *Crash Course Into the OWASP API Top 10*:
 
 > Application Programming Interfaces (APIs) are the glue that allows independently evolving systems to communicate with each other, and are an important focus for security investment due to their privileged access to sensitive data and functionality.
